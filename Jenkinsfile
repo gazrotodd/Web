@@ -10,7 +10,7 @@ pipeline {
                 steps {
                     // Get some code from a GitHub repository
 
-                    git branch: 'main', url: 'https://github.com/QA-Instructor/lbg-hello-world-maven.git'
+                    git branch: 'main', url: 'https://github.com/gazrotodd/lbg-hello-world-maven.git'
                 }
             }
             stage('Compile') {
